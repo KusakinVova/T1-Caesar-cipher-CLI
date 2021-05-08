@@ -1,0 +1,27 @@
+{
+  "name": "caesar_cipher_cli",
+  "version": "1.0.0",
+  "description": "Caesar cipher CLI",
+  "main": "caesar_cipher_cli.js",
+  "scripts": {
+    "start": "node caesar_cipher_cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KusakinVova/T1-Caesar-cipher-CLI.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cli"
+  ],
+  "author": "Vladimir K. <kusakinvova@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KusakinVova/T1-Caesar-cipher-CLI/issues"
+  },
+  "homepage": "https://github.com/KusakinVova/T1-Caesar-cipher-CLI#readme",
+  "dependencies": {
+    "commander": "^7.2.0"
+  }
+}
