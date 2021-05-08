@@ -40,7 +40,7 @@ if(just_do_it){
             content_d = encodetext(answer, shift, action);
             to_file = '====================\n' + answer + '\n--------------------\n' + content_d + '\n====================\n';
             if(writefile === 'undefined')
-                console.log(`Text code : ` + content_d);
+                console.log( answer + ' / ' + content_d);
             else
                 fs.appendFile(writefile, to_file, { flag: 'a+' }, err => {});
             rl.close();
@@ -59,8 +59,7 @@ if(just_do_it){
             console.error("Text was " + action + " with shift = " + shift);
             
         } catch (err) {
-            // ошибка чтения файла 
-            // console.error(err)
+            // ошибка чтения файла // console.error(err)
             console.log(readfile + " - this file isn't find ");
         }
     }
