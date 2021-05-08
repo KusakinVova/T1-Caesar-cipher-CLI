@@ -14,6 +14,26 @@ $ npm install
 ### Encode text
 For encode text with Caesar cipher CLI use command 
 ```js
+$ node app  -s 1 -a encode
+```
+or 
+```js
+$ node app  -shift 1 -action encode 
+```
+
+### Decode text
+For encode text with Caesar cipher CLI use command 
+```js
+$ node app  -s 1 -a decode
+```
+or 
+```js
+$ node app  -shift 1 -action decode 
+```
+
+### Encode file
+For encode text with Caesar cipher CLI use command 
+```js
 $ node app  -s 1 -a encode -i ./input.txt -o ./output.txt
 ```
 or 
@@ -21,7 +41,7 @@ or
 $ node app  -shift 1 -action encode -input ./input.txt -output ./output.txt
 ```
 
-### Decode text
+### Decode file
 For encode text with Caesar cipher CLI use command 
 ```js
 $ node app  -s 1 -a decode -i ./input.txt -o ./output.txt
