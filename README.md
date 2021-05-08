@@ -11,6 +11,12 @@ $ npm install
 
 ## Use Caesar cipher CLI
 
+### Using 4 options (short alias and full name):
+1. -s, --shift: a shift is important
+2. -i, --input: an input file
+3. -o, --output: an output file
+4. -a, --action: an action encode/decode is important
+
 ### Encode text
 For encode text with Caesar cipher CLI use command 
 ```js
@@ -50,3 +56,6 @@ or
 ```js
 $ node app  -shift 1 -action decode -input ./input.txt -output ./output.txt
 ```
+
+## Algorithm
+- [wiki](https://en.wikipedia.org/wiki/Caesar_cipher)
