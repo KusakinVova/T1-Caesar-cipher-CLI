@@ -1,5 +1,6 @@
 const { program } = require('commander');
 const fs = require('fs');
+const process = require('process');
 const readline = require('readline');
 const encodetext = require('./caesarcipher');
 
